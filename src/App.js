@@ -10,7 +10,6 @@ jourj.locale("fr");
 const date = document.querySelector("#time");
 date.prepend(jourj.format("dddd D MMMM YYYY"));
 
-/*
 function App() {
   return (
     <div className="container my-4">
@@ -24,8 +23,8 @@ function App() {
 }
 
 export default App;
-*/
 
+/*
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
   const [username, setUsername] = useState("");
@@ -52,3 +51,4 @@ function App() {
 }
 
 export default App;
+*/
